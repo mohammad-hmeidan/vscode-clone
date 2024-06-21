@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  color-scheme: light dark;
+  background-color: #000;
+}
+ul::-webkit-scrollbar {
+  height: 4px;
+  background-color: rgba(55, 65, 81, 0.532);
+}
+ul::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 59, 73);
+}
